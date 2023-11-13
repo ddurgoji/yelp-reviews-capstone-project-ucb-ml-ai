@@ -46,7 +46,7 @@ This model can be used in real-time to build various solution as listed below.
   * Removed short hands
 * Checked Sentiment among Positive and Negative classes.
   * Positive rating has majority of reviews with positive sentiment polarity
-  * Negative rating has majority of reviews with positive sentiment polarity (Could this cause model to get confused?)
+  * Negative rating has majority of reviews with positive sentiment polarity (Could this cause model to get confused and underfit?)
 * Generated word cloud to get insight into most occuring words in both positive and negative rating
 | <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" title="Positive Reviews Word Cloud" /> | <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png" width="400" title="Negative Reviews Word Cloud" /> |
 
@@ -62,7 +62,7 @@ Generated models with below differnet techniques.
 
 LogisticRegression performed better with 93% accuracy on Validation dataset.
 Below DataFrame shows the results for all models.
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/model_eval.png" width="1200" height="600" />
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/model_eval.png" width="1200" height="400" />
 
 #### Pending items for Capstone part 2 Module 24
 * Find performance on test_df.
