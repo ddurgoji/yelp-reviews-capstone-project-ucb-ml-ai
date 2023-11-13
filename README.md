@@ -44,6 +44,7 @@ In this project, i am trying to build various classifier models which helps bank
   * Positive rating has majority of reviews with positive sentiment polarity
   * Negative rating has majority of reviews with positive sentiment polarity (Could this cause model to get confused?)
 * Generated word cloud to get insight into most occuring words in both positive and negative rating
+![alt Positive Review Word Cloud](https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png?raw=true)
 
 #### Modelling
 Using train_test_split seperated Training dataset = 80% and Validation Dataset = 20%.
@@ -55,10 +56,14 @@ Generated models with below differnet techniques.
 * RandomForestClassifier
 * AdaBoostClassifier
 
+LogisticRegression performed better with 93% accuracy on Validation dataset.
+Below DataFrame shows the results for all models.
+
+
 #### Pending items for Capstone part 2 Module 24
 * Find performance on test_df.
-* Clean up the notebook
-* Generate RandomForest and AdaBoostClassifiers with more n_iter's
+* Clean up the notebook and move around code blocks appropriately.
+* Generate RandomForest and AdaBoostClassifiers with more n_iter's if possible.
 * Build a performance graph for various model thats generated.
 * Deploy the model on DigitalOcean or any other cloud provider.
 
