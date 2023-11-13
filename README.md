@@ -45,10 +45,7 @@ In this project, i am trying to build various classifier models which helps bank
   * Negative rating has majority of reviews with positive sentiment polarity (Could this cause model to get confused?)
 * Generated word cloud to get insight into most occuring words in both positive and negative rating
 
-| <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="200" /> | <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png" width="200" /> |
-
-![Positive Review Word Cloud](https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png?raw=true)
-![Negative Review Word Cloud](https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png?raw=true)
+| <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" title="Positive Reviews Word Cloud" /> | <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png" width="400" title="Negative Reviews Word Cloud" /> |
 
 #### Modelling
 Using train_test_split seperated Training dataset = 80% and Validation Dataset = 20%.
