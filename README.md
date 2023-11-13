@@ -48,7 +48,11 @@ This model can be used in real-time to build various solution as listed below.
   * Positive rating has majority of reviews with positive sentiment polarity
   * Negative rating has majority of reviews with positive sentiment polarity (Could this cause model to get confused and underfit?)
 * Generated word cloud to get insight into most occuring words in both positive and negative rating
-| <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" title="Positive Reviews Word Cloud" /> | <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png" width="400" title="Negative Reviews Word Cloud" /> |
+**Positive Reviews Word Cloud**
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" />
+
+**Negative Reviews Word Cloud**
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png" width="400" title="Negative Reviews Word Cloud" />
 
 #### Modelling
 Using train_test_split seperated Training dataset = 80% and Validation Dataset = 20%.
