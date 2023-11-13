@@ -20,6 +20,10 @@ This Yelp reviews dataset is constructued by Xiang Zhang(xiang.zhang@nyu.edu) fr
 This Yelp reviews dataset is constructed by considering starts 1 and 2 as negative, 3 and 4 as positive. For each polarity 280k training samples and 19,000 testing samples are taken randomly. In total there are 560k training and 38k testing samples. Negative sentiment reviews are marked as 1 and Positive sentiment reviews are marked as 2.
 
 In this project, i am trying to build various classifier models which helps banks to determine Yelp review comments as positive or negative.
+This model can be used in real-time to build various solution as listed below.
+* Yelp could downgrade ranking of a restaurant if negative ratings increase
+* Yelp could show a restaurant on top if their positive rating is high
+* Use the sentiment to provide data to restaurant to improve on their service etc.
 
 #### Data Understanding
 * Read CSV Dataset using Pandas. DataFrame contains Review and Rating columns.
@@ -44,8 +48,8 @@ In this project, i am trying to build various classifier models which helps bank
   * Positive rating has majority of reviews with positive sentiment polarity
   * Negative rating has majority of reviews with positive sentiment polarity (Could this cause model to get confused?)
 * Generated word cloud to get insight into most occuring words in both positive and negative rating
-
-| <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" title="Positive Reviews Word Cloud" /> <em>Positive Reviews Word Cloud</em> | <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png" width="400" title="Negative Reviews Word Cloud" /> <em>Negative Reviews Word Cloud</em> |
+| Positive Reviews Word Cloud | Negative Reviews Word Cloud |
+| <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" title="Positive Reviews Word Cloud" /> | <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png" width="400" title="Negative Reviews Word Cloud" /> |
 
 #### Modelling
 Using train_test_split seperated Training dataset = 80% and Validation Dataset = 20%.
@@ -59,7 +63,7 @@ Generated models with below differnet techniques.
 
 LogisticRegression performed better with 93% accuracy on Validation dataset.
 Below DataFrame shows the results for all models.
-
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/model_eval.png" width="600" />
 
 #### Pending items for Capstone part 2 Module 24
 * Find performance on test_df.
