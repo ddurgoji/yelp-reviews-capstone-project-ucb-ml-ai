@@ -50,8 +50,8 @@ This model can be used in real-time to build various solution as listed below.
 * Generated word cloud to get insight into most occuring words in both positive and negative rating </br>
 
 **Positive Reviews Word Cloud**
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" />
 </br>
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" />
 
 **Negative Reviews Word Cloud**
 </br>
