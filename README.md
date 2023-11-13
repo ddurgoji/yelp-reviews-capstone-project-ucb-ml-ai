@@ -22,28 +22,59 @@ This Yelp reviews dataset is constructed by considering starts 1 and 2 as negati
 In this project, i am trying to build various classifier models which helps banks to determine Yelp review comments as positive or negative.
 
 #### Data Understanding
-* Read CSV Dataset using Pandas.
-* Using Plotly plotted various histograms to understand distribution of various columns.
+* Read CSV Dataset using Pandas. DataFrame contains Review and Rating columns.
+* Train DataFrame has 560,000 records and Test DataFrame has 38,000 records.
+* Training dataset has both positive and negative classes balanced.
+* Checked dataset for below items in Reviews.
+  * Special characters - 410217 out of 560000
+  * Short hand words - 394763 out of 560000
+  * Stop words - 556099 out of 560000
+  * HTTP(S) links - 2501 out of 560000
 
 #### Data Preparation
-
+* Performed below actions
+  * Converted all letters to lower case.
+  * Removed all special characters
+  * Removed Stop words
+  * Removed HTTP(S) links
+  * Removed Accents
+  * Normalized spaces
+  * Removed short hands
+* Checked Sentiment among Positive and Negative classes.
+  * Positive rating has majority of reviews with positive sentiment polarity
+  * Negative rating has majority of reviews with positive sentiment polarity (Could this cause model to get confused?)
+* Generated word cloud to get insight into most occuring words in both positive and negative rating
 
 #### Modelling
+Using train_test_split seperated Training dataset = 80% and Validation Dataset = 20%.
+
+Generated models with below differnet techniques.
+* MultinomialNB
+* LogisticRegression
+* DecisionTreeClassifier
+* RandomForestClassifier
+* AdaBoostClassifier
+
+#### Pending items for Capstone part 2 Module 24
+* Find performance on test_df.
+* Clean up the notebook
+* Generate RandomForest and AdaBoostClassifiers with more n_iter's
+* Build a performance graph for various model thats generated.
+* Deploy the model on DigitalOcean or any other cloud provider.
 
 
 #### Evaluation
-
+Will be added as part of Module 24 Capstone part 2
 
 #### Deployment
+Will be added as part of Module 24 Capstone part 2
 
 #### Next Steps
+Will be added as part of Module 24 Capstone part 2
 
 #### Conclusion
-##### Summary
+Will be added as part of Module 24 Capstone part 2
 
-##### Reflection
-
-##### Improvements
 
 ## Technologies Used
 Below are some of important technologies used in this project.
