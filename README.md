@@ -77,7 +77,7 @@ LogisticRegression performed better with 93% accuracy on Validation dataset. Bel
 <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/lr_cm.png" width="500" height="500" />
 
 Below DataFrame and plot shows the results for all models that i generated as part of this project.
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/model_eval.png" width="1200" height="400" />
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/model_eval.png" />
 
 <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images//model_graph.png" width="1200" height="400" />
 
