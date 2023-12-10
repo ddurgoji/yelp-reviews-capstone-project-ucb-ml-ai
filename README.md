@@ -121,6 +121,7 @@ Below are some of important technologies used in this project.
 * [Seaborn](http://seaborn.pydata.org)
 * [Pandas](http://pandas.pydata.org)
 * [Scikit-learn](https://scikit-learn.org/stable/)
+* [TensorFlow](https://www.tensorflow.org)
 * [NLTK](https://www.nltk.org)
 and some more.
 
