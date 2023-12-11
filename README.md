@@ -57,11 +57,11 @@ Below is the methodology used.
 
 **Positive Reviews Word Cloud**
 </br>
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive-sentiment.png" width="400" />
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/positive_cloud.png" width="400" />
 
 **Negative Reviews Word Cloud**
 </br>
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative-sentiment.png" width="400" title="Negative Reviews Word Cloud" />
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/negative_cloud.png" width="400"/>
 
 #### Modelling
 Using train_test_split seperated Training dataset = 80% and Validation Dataset = 20%.
@@ -80,10 +80,8 @@ Generated models with below differnet techniques.
 * Deep learning CNN model performed better with 96.88% accuracy.
 * LogisticRegression with Count Vectorizer came in second with 93.25% accuracy. 
 
-Below is confusion matrix of Deep learning CNN high performance model.
 <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/cnn_cm.png" width="500" height="500" />
 
-Below is confusion matrix of Logistic Regression with Count Vectorizer high performance model.
 <img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/log_cm.png" width="500" height="500" />
 
 Deep learning RNN LSTM model, Logistic Regression with TFIDF performed well as well.
