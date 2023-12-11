@@ -1,5 +1,5 @@
 ### Project Title
-Yelp Reviews Sentiment analysis by **Dhiraj Durgoji (djdhiraj.8189@gmail.com)**
+CapStone Project: Yelp Reviews Sentiment analysis by **Dhiraj Durgoji (djdhiraj.8189@gmail.com)**
 
 #### Executive summary
 Yelp Reviews Dataset contains reviews from Yelp. It is extracted from the Yelp dataset challenge 2015 data. For more information, please refer to http://www.yelp.com/dataset_challenge.
@@ -9,11 +9,13 @@ This Yelp reviews dataset is constructued by Xiang Zhang(xiang.zhang@nyu.edu) fr
 This Yelp reviews dataset is constructed by considering starts 1 and 2 as negative, 3 and 4 as positive. For each polarity 280k training samples and 19,000 testing samples are taken randomly. In total there are 560k training and 38k testing samples. Negative sentiment reviews are marked as 1 and Positive sentiment reviews are marked as 2.
 
 #### Rationale
-In this project, i am trying to build various classifier models which helps banks to determine Yelp review comments as positive or negative.
+Yelp has been one of most popular sites for users to rate and review local businesses. Business organize their own listings and users rate the business from 1-5 stars and write text reviews. Users can also vote on helpful reviews written by other users.
+
+In this project, I am trying to build various classifier models which helps businesses to determine Yelp review comments as positive or negative.
 This model can be used in real-time to build various solution as listed below.
-* Yelp could downgrade ranking of a restaurant if negative ratings increase
-* Yelp could show a restaurant on top if their positive rating is high
-* Use the sentiment to provide data to restaurant to improve on their service etc.
+* Yelp could downgrade ranking of a restaurant if negative ratings increase and not show at the top. This improves the Yelp recommendations quality.
+* Yelp could show a restaurant on top if their positive rating is high. Again this improves the Yelp recommendations quality.
+* Use the sentiment to provide data to restaurant to improve on their service etc. This adds another revenue stream for Yelp from Businesses who are looking to improve their quality.
 
 This helps Yelp to improve user experience by showing right results based on search and also helps Yelp to upsell value add services to restaurants etc.
 
@@ -70,21 +72,47 @@ Generated models with below differnet techniques.
 * DecisionTreeClassifier
 * RandomForestClassifier
 * AdaBoostClassifier
+* Convolutional Neural Networks(CNN) using Tensorflow/keras
+* Recurrent Neural Networks(RNN) using Tensorflow/keras - LSTM & GRU
 
 #### Results
 
-LogisticRegression performed better with 93% accuracy on Validation dataset. Below is confusion matrix of Logistic Regression high performance model.
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/lr_cm.png" width="500" height="500" />
+* Deep learning CNN model performed better with 96.88% accuracy.
+* LogisticRegression with Count Vectorizer came in second with 93.25% accuracy. 
 
-Below DataFrame and plot shows the results for all models that i generated as part of this project.
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/model_eval.png" />
+Below is confusion matrix of Deep learning CNN high performance model.
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/cnn_cm.png" width="500" height="500" />
 
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images//model_graph.png" width="1200" height="400" />
+Below is confusion matrix of Logistic Regression with Count Vectorizer high performance model.
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/log_cm.png" width="500" height="500" />
 
-More details will be added as part of Module 24 Capstone part 2
+Deep learning RNN LSTM model, Logistic Regression with TFIDF performed well as well.
+
+Below are graphs comparing Accuracy, Precision and Recall for all 13 models.
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_accuracy.png" width="500" height="500" />
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_precision.png" width="500" height="500" />
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_recall.png" width="500" height="500" />
+
+
+#### Deployment
+Used the real-time review from Yelp and used all 13 models to see the results they produce, High performing models mentioned above performed very well by classifying 100% correctly.
+Some models with < 90% accuracy classified few of them incorrectly.
+
+Check notebook for detailed results.
+
+#### Conclusion
+* Deep learning CNN model performed better than all other models with higher accuracy, precision and recall.
+* Logistic regression with Count vectorizer and Deep learning RNN LSTM model performed equally well taking second place.
+
+Give we have higher precision, recall and accuracy from above 3 models they can be used to build a recommendation system for Yelp, value add products to improve businesses etc.
 
 #### Next steps
-What suggestions do you have for next steps?
+
+It was a great learning experiences and very good structured modules. This has helped me personally to stay on course and complete things on time.
+
+I havee gained immense knowledge on ML/AI and looking forward to expand that knowledge further and implements great solution in my current work.
+
+I would like to thank all the learning facilitators and Berkeley professors for all video lectures, Quiz, Codio activites, Practical application projects and this Capstone projects. Thanks for all the feedback on work i did as part of this project.
 
 #### Outline of project
 This repo contains the CRISP-DM framework applied on Yelp Review sentiment dataset from [Kaggle](https://www.kaggle.com/datasets/ilhamfp31/yelp-review-dataset/data).
@@ -96,23 +124,6 @@ This repo contains the CRISP-DM framework applied on Yelp Review sentiment datas
 * [Dataset](https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/tree/main/dataset)
     * This dataset is from [Kaggle](https://www.kaggle.com/datasets/ilhamfp31/yelp-review-dataset/data).
 
-#### Pending items for Capstone part 2 Module 24
-* Find performance on test_df.
-* Clean up the notebook and move around code blocks appropriately.
-* Generate RandomForest and AdaBoostClassifiers with more n_iter's if possible.
-* Generate models with CountVectorizer.
-* Build a performance graph for various model thats generated.
-* Deploy the model on DigitalOcean or any other cloud provider.
-
-#### Deployment
-Will be added as part of Module 24 Capstone part 2
-
-#### Next Steps
-Will be added as part of Module 24 Capstone part 2
-
-#### Conclusion
-Will be added as part of Module 24 Capstone part 2
-
 ## Technologies Used
 Below are some of important technologies used in this project.
 * [Python](https://www.python.org)
@@ -123,6 +134,7 @@ Below are some of important technologies used in this project.
 * [Scikit-learn](https://scikit-learn.org/stable/)
 * [TensorFlow](https://www.tensorflow.org)
 * [NLTK](https://www.nltk.org)
+* [WordCloud](https://pypi.org/project/wordcloud/)
 and some more.
 
 ## Author
