@@ -89,9 +89,9 @@ Below is confusion matrix of Logistic Regression with Count Vectorizer high perf
 Deep learning RNN LSTM model, Logistic Regression with TFIDF performed well as well.
 
 Below are graphs comparing Accuracy, Precision and Recall for all 13 models.
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_accuracy.png" width="500" height="500" />
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_precision.png" width="500" height="500" />
-<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_recall.png" width="500" height="500" />
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_accuracy.png"/>
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_precision.png"/>
+<img src="https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/images/final_recall.png"/>
 
 
 #### Deployment
