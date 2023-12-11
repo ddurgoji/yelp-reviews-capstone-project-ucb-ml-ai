@@ -20,7 +20,7 @@ This model can be used in real-time to build various solution as listed below.
 This helps Yelp to improve user experience by showing right results based on search and also helps Yelp to upsell value add services to restaurants etc.
 
 #### Research Question
-Yelp reviews sentiment analysis to upsell value addition products to both end users and restaurants, shops etc.
+Yelp reviews sentiment analysis to upsell value addition products to both end users and restaurants, shops etc. Build a recommendation system.
 
 #### Data Sources
 This dataset is from [Kaggle](https://www.kaggle.com/datasets/ilhamfp31/yelp-review-dataset/data)
@@ -121,6 +121,8 @@ This repo contains the CRISP-DM framework applied on Yelp Review sentiment datas
     * Project description
 * [Dataset](https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/tree/main/dataset)
     * This dataset is from [Kaggle](https://www.kaggle.com/datasets/ilhamfp31/yelp-review-dataset/data).
+* [Images](https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/tree/main/images)
+    * All images are captured from [Notebook]((https://github.com/ddurgoji/yelp-reviews-capstone-project-ucb-ml-ai/blob/main/yelp-reviews-capstone-ucb-mlai.ipynb))
 
 ## Technologies Used
 Below are some of important technologies used in this project.
